@@ -420,12 +420,13 @@
   background-color: var(--primary-white-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
+  fill: black;
 }
 .is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
 }
-/* .icon-close-btn {
-  fill: Color: #000000 ;
-} */
+.icon-close-btn {
+  fill: #000000;
+}
